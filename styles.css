@@ -1,0 +1,183 @@
+
+body {
+    background: linear-gradient(to right, #2E0916, #200A2B);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*reset*/
+img {
+    width: 100%;
+}
+
+hr {
+    background: #ffffff47;
+}
+
+/*nav bar*/
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: linear-gradient(to right, #2E0916, #200A2B);
+}
+
+.navbar .nav-link {
+    color: #ff5b79;
+}
+
+.nav-item.bg {
+    background-image: url(/images/boton.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 111px;
+    height: 54px;
+    display: flex;
+    align-items: center;    
+}
+
+.nav-item.bg a {
+    color: #fff;
+}
+
+.mifoto {
+    border-radius: 289px;
+    overflow: hidden;
+}
+
+.descripcion h1 {
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+.descripcion h2 {
+    font-size: 1rem;
+    font-weight: 800;
+    color: #ff5b79;
+}
+
+.descripcion p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+/*titles*/
+.item__Container h2{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #ff5b79;
+}
+
+/*cards*/
+.card {
+    background-color: #ffffff21;  
+}
+
+.card:hover {
+    transform: scale(0.99);
+    transition: 1s all linear;
+    z-index: 1000;
+}
+
+.item__Container > .d-flex {
+    position: relative;
+}
+
+.card .title {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.card .descripcion {
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
+.swiper-button-prev {
+    left: -40px;
+}
+
+.swiper-button-prev::after {
+    font-size: 20px;
+}
+
+.swiper-button-next {
+    right: -40px;
+}
+
+.swiper-button-next::after {
+    font-size: 20px;
+}
+
+/*skils*/
+.skill  {
+    text-align: center;
+    width: 160px;
+}
+
+.skill img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.skill .tipeB {
+    width: 75px;
+}
+
+.skill .nombre {
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+/*estudio*/
+.item__Container.estudio {
+    background: #ffffff05;
+    padding: 80px 0;
+}
+.item__Container.estudio img {
+    width: 200px;
+}
+
+.item__Container.estudio img.tipeB {
+    width: 250px;
+    margin-bottom: 38px;
+}
+
+.item__Container.estudio .descripcion {
+    font-size: 0.8rem;
+    margin-bottom: 0px;
+    opacity: 0.8;
+}
+
+.item__Container.estudio .title {
+    font-size: 0.8rem;
+    color: #ff5b79;
+}
+
+.item__Container.estudio .universidad {
+    font-size: 14px;
+}
+
+/*referencias*/
+
+.referencias .headline {
+    margin-bottom: 5px;
+}
+
+.referencias .headline .nombre {
+    color: #ff5b79;
+    border-right: 1px solid #ff5b79;
+    padding-right: 5px;
+    margin-right: 5px;
+    opacity: 1;
+}
+
+.referencias .headline .cargo {
+    opacity: 0.6;
+}
+
+.referencias .empresa {
+    font-size: 0.8rem;
+}
