@@ -27,7 +27,7 @@ hr {
 }
 
 .nav-item.bg {
-    background-image: url(/images/boton.svg);
+    background-image: url(images/boton.svg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 111px;
