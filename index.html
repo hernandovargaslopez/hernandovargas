@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
     <link rel="stylesheet" href="styles.css">    
-</head>
+</head>    
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark py4">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,130 +21,163 @@
           
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#inicio">Inicio <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a  class="nav-link lang" key="inicio" href="#inicio">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#experiencia">Experiencia</a>
+                        <a class="nav-link lang" key="experiencia" href="#experiencia">Experiencia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#habilidades">Habilidades</a>
+                        <a class="nav-link lang" key="habilidades" href="#habilidades">Habilidades</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#educacion">Educación</a>
+                        <a class="nav-link lang" key="educacion" href="#educacion">Educación</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#referencias">Referencias</a>
+                        <a class="nav-link lang" key="referencias"  href="#referencias">Referencias</a>
                     </li>
                 </ul>
                 <div class="especial">
-                    <div class="nav-item bg">
-                        <a class="nav-link disabled" href="#">Contacto</a>
-                    </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <div class="nav-item botones px-2">
+                            <buton class="translate px-2" id="es">
+                                Español
+                            </buton>
+                            <buton class="translate px-2" id="en">
+                                Ingles
+                            </buton>
+                        </div>
+                        <div class="nav-item bg">
+                            <a class="nav-link disabled lang" key="contacto"  href="#">Contacto</a>
+                        </div>                        
+                    </div>                    
                 </div>
             </div>
-        </nav>
+        </nav>        
         <section id="inicio" class="pb-5">
             <div class="portada container mt-5">
                 <div class="row align-items-center">
                     <div class="col-12 col-md-4">
-                        <div class="mifoto d-none d-md-block">
+                        <div class="mifoto">
                             <img src="images/fotoperfil.jpeg" alt="">
                         </div>
                     </div>
                     <div class="descripcion col-md-8">
                         <div class="d-flex align-items-center container__name">
-                            <div class="mifoto d-block d-md-none">
-                                <img src="images/fotoperfil.jpeg" alt="">
-                            </div>
                             <h1>HERNANDO ENRIQUE <br> VARGAS LÓPEZ</h1>
                         </div>                        
                         <h2>Front End - UI/UX</h2>
-                        <p>Hola, mi nombre es Hernando Erique Vargas López, Diseñador Web, Front End, UI/UX , graduado en las carreras profesionales de Diseño Gráfico y Medios Audiovisuales de la Universidad Politecnico Grancolombiano. Cuento con 4 años de experiencia en el desarrollo y liderazgo de productos digitales y en la implementación de campañas para la promoción de contenidos.</p>
+                        <p class="lang" key="introduccion">Hola, mi nombre es Hernando Erique Vargas López, Diseñador Web, Front End, UI/UX , graduado en las carreras profesionales de Diseño Gráfico y Medios Audiovisuales de la Universidad Politecnico Grancolombiano. Cuento con 5 años de experiencia en el desarrollo y liderazgo de productos digitales y en la implementación de campañas para la promoción de contenidos.</p>
                     </div>
                 </div>                
             </div>            
         </section>
         <section id="experiencia" class="container mt-5 pb-5">
             <div class="item__Container">
-                <h2 class="mb-5">EXPERIENCIA</h2>
+                <h2 class="mb-5 lang" key="titulo.experiencia">EXPERIENCIA</h2>
                 <div class="d-flex">
                     <div class="swiper">
                         <div class="swiper-wrapper">
                             <div class="item card px-3 py-4 swiper-slide">
                                 <div class="title">
-                                    <span>
+                                    <span class="lang" key="igac.cargo">
                                         FRONT- END 
                                     </span>                                    
                                     <br>
-                                    INSTITUTO GEOGRÁFICO AGUSTÍN CODAZZI 2021
+                                    INSTITUTO GEOGRÁFICO AGUSTÍN Codazzi
+                                    <br>
+                                    <span class="lang" key="igac.fecha">
+                                        2022 - Actualidad
+                                    </span>                                    
                                 </div>
                                 <hr>
-                                <div class="descripcion">
+                                <div class="descripcion lang" key="igac.descripcion">
                                     Especialista en html, css, JavaScript, dedicado al ambiente digital del instituto.
                                 </div>
                             </div>
                             <div class="item card px-3 py-4 swiper-slide">
                                 <div class="title">
-                                    <span>
+                                    <span class="lang" key="sancho.cargo">
                                         Diseñador UI-UX
                                     </span>                                    
                                     <br> 
-                                    GRUPO SANCHO 2021- ACTUALIDAD
+                                    GRUPO SANCHO
+                                    <br>
+                                    <span class="lang" key="sancho.fecha">
+                                        2021 - Actualidad
+                                    </span>                                    
                                 </div>
                                 <hr>
-                                <div class="descripcion">
+                                <div class="descripcion lang" key="sancho.descripcion">
                                     Desarrollo y conceptualización de páginas y aplicativos web centrados en el usuario, mediante el uso de herramientas de desarrollo y leguajes aplicados como JavaScript, JQuery, Html, Css, Sass, entre otros.
                                 </div>
                             </div>                            
                             <div class="item card px-3 py-4 swiper-slide">
                                 <div class="title">
-                                    <span>
+                                    <span class="lang" key="kienyke.cargo">
                                         DIRECTOR DE PRODUCTO 
                                     </span>                                    
                                     <br>
-                                    KIENYKE.COM 2019 - 2021
+                                    KIENYKE.COM
+                                    <br>
+                                    <span class="lang" key="kienyke.fecha">
+                                        2019 - 2021
+                                    </span>                                   
                                 </div>
                                 <hr>
-                                <div class="descripcion">
+                                <div class="descripcion lang" key="kienyke.descripcion">
                                     Gestor de proyectos y productos digitales, en concordancia con las nuevas tendencias tecnológicas, brindando y aportando soluciones para la ejecución acertada de los proyectos.
                                 </div>
                             </div>
                             <div class="item card px-3 py-4 swiper-slide">
                                 <div class="title">
-                                    <span>
+                                    <span class="lang" key="kienykeduu.cargo">
                                         Diseñador UI-UX 
                                     </span>                                    
                                     <br>
-                                    KIENYKE.COM 2018 - 2019
+                                    KIENYKE.COM
+                                    <br>
+                                    <span class="lang" key="kienykeduu.fecha">
+                                        2018 - 2019
+                                    </span>                                    
                                 </div>
                                 <hr>
-                                <div class="descripcion">
+                                <div class="descripcion lang" key="kienykeduu.descripcion">
                                     Desarrollo y conceptualización gráfica para la web. Experiencia en UX, Drupal, front end, desarrollo en worpress, git, html, css, javascript. entre otras herramientas técnologicas.
                                 </div>
                             </div>
                             <div class="item card px-3 py-4 swiper-slide">
                                 <div class="title">
-                                    <span>
+                                    <span class="lang" key="knockout.cargo">
                                         DISEÑADOR GRÁFICO
                                     </span>                                    
                                     <br> 
-                                    KNOCK-OUT 2017 - 2018
+                                    KNOCK-OUT
+                                    <br>
+                                    <span class="lang" key="knockout.fecha">
+                                        2017 - 2018
+                                    </span>                                    
                                 </div>
                                 <hr>
-                                <div class="descripcion">
+                                <div class="descripcion lang" key="knockout.descripcion">
                                     Elaboración de productos audiovisuales para campañas masivas impulsadas en redes sociales y medios de comunicación nacionales.
                                 </div>
                             </div>
                             <div class="item card px-3 py-4 swiper-slide">
                                 <div class="title">
-                                    <span>
+                                    <span class="lang" key="poli.cargo">
                                         POSTPRODUCCIÓN
                                     </span>
-                                    Politécnico Grancolombiano 2016 - 2017                                    
+                                    <br>
+                                    Politécnico Grancolombiano 
+                                    <br>
+                                    <span class="lang" key="poli.fecha">
+                                        2016 - 2017
+                                    </span>
+                                                                      
                                 </div>
                                 <hr>
-                                <div class="descripcion">
+                                <div class="descripcion lang" key="poli.descripcion">
                                     Experiencia en pre-producción producción y post-producción de contenidos audiovisuales con fines educativos e institucionales, creación de campañas.
                                 </div>
                             </div>                        
@@ -250,7 +283,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item px-4">
+                    <div class="item px-4 mb-4">
                         <div class="descripcion text-center">
                             <div class="d-flex justify-content-center headline">
                                 <div class="nombre">

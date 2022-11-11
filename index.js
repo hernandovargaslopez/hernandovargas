@@ -43,17 +43,17 @@ let homeSwiper = new Swiper(".swiper", {
     breakpoints: {
       // when window width is >= 320px
       320: {
-        slidesPerView: 2,
+        slidesPerView: 1,
         spaceBetween: 10
       },
       // when window width is >= 480px
       425: {
-        slidesPerView: 2,
+        slidesPerView: 1,
         spaceBetween: 10
       },
       // when window width is >= 640px
       728: {
-        slidesPerView: 4,
+        slidesPerView: 3,
         spaceBetween: 20
       }
     },
@@ -73,5 +73,12 @@ let homeSwiper = new Swiper(".swiper", {
     },
 });
 
-
+$.getJSON('lang.json', function(json) {
+  $('.translate').click(function () {
+    let lang = $(this).attr('id');
+    $('.lang').each (function (index, value) {
+      $(this).text(json[lang][$(this).attr('key')])
+    })    
+  });
+});
 

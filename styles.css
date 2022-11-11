@@ -92,8 +92,9 @@ hr {
 /*titles*/
 .item__Container h2{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #ff5b79;
+    font-weight: 800;
 }
 
 /*cards*/
@@ -110,10 +111,13 @@ hr {
 }
 
 .card .title {
-    height: 65px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 400;
     color: #ff5b79;
+}
+
+.card .title span {
+    font-size: 1rem;
 }
 
 .card .title span {
@@ -242,19 +246,19 @@ hr {
     }
 
     .container__name {
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 
     .descripcion h1 {
-        font-size: 1.3rem;
+        font-size: 2rem;
         line-height: 2rem;
-        padding-left: 15px;
         margin-bottom: 0;
+        margin-top: 20px;
     }
 
     .mifoto {
         margin-bottom: 0;
-        width: 110px;
+        width: 170px;
         border-radius: 100px;
     } 
 
@@ -267,7 +271,7 @@ hr {
     }
 
     .card .title {
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
 
     .skill {
@@ -316,6 +320,10 @@ hr {
 
     .item__Container.estudio .descripcion {
         font-size: 0.7rem;
+    }
+
+    .portada.mt-5 {
+        margin-top: 30px !important;
     }
 
     section.pb-5 {

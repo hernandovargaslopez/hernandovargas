@@ -1,0 +1,71 @@
+{
+    "es": {
+        "inicio": "Inicio",
+        "experiencia": "Experiencia",
+        "habilidades": "Habilidades",
+        "educacion": "Educación",
+        "referencias": "Referencias",
+        "contacto": "Contacto",
+        "introduccion": "Hola, mi nombre es Hernando Erique Vargas López, Diseñador Web, Front End, UI/UX , graduado en las carreras profesionales de Diseño Gráfico y Medios Audiovisuales de la Universidad Politecnico Grancolombiano. Cuento con 5 años de experiencia en el desarrollo y liderazgo de productos digitales y en la implementación de campañas para la promoción de contenidos.",
+        "titulo.experiencia": "EXPERIENCIA",
+
+        "igac.cargo": "FRONT- END",
+        "igac.fecha": "2022 - Actualidad",
+        "igac.descripcion": "Especialista en html, css, JavaScript, dedicado al ambiente digital del instituto.",
+
+        "sancho.cargo": "Diseñador UI-UX",
+        "sancho.fecha": "2021 - Actualidad",
+        "sancho.descripcion": "Desarrollo y conceptualización de páginas y aplicativos web centrados en el usuario, mediante el uso de herramientas de desarrollo y leguajes aplicados como JavaScript, JQuery, Html, Css, Sass, entre otros.",
+
+        "kienyke.cargo": "DIRECTOR DE PRODUCTO",
+        "kienyke.fecha": "2019 - 2021",
+        "kienyke.descripcion": "Gestor de proyectos y productos digitales, en concordancia con las nuevas tendencias tecnológicas, brindando y aportando soluciones para la ejecución acertada de los proyectos.",
+
+        "kienykeduu.cargo": "Diseñador UI-UX",
+        "kienykeduu.fecha": "2018 - 2019",
+        "kienykeduu.descripcion": "Desarrollo y conceptualización gráfica para la web. Experiencia en UX, Drupal, front end, desarrollo en worpress, git, html, css, javascript. entre otras herramientas técnologicas.",
+
+        "knockout.cargo": "DISEÑADOR GRÁFICO",
+        "knockout.fecha": "2017 - 2018",
+        "knockout.descripcion": "Elaboración de productos audiovisuales para campañas masivas impulsadas en redes sociales y medios de comunicación nacionales.",
+
+        "poli.cargo": "POSTPRODUCCIÓN",
+        "poli.fecha": "2016 - 2017",
+        "poli.descripcion": "Experiencia en pre-producción producción y post-producción de contenidos audiovisuales con fines educativos e institucionales, creación de campañas."
+    },
+    "en": {
+        "inicio": "Home",
+        "experiencia": "Experience",
+        "habilidades": "Skills",
+        "educacion": "Education",
+        "referencias": "References",
+        "contacto": "Contact",
+        "introduccion": "Hello, my name is Hernando Erique Vargas López, Web Designer, Front End, UI/UX, graduated in the professional careers of Graphic Design and Audiovisual Media from the Universidad Politecnico Grancolombiano. I have 5 years of experience in the development and leadership of digital products and in the implementation of content promotion campaigns.",
+        "titulo.experiencia": "EXPERIENCE",
+
+        "igac.cargo": "FRONT- END",
+        "igac.fecha": "2022 - Now",
+        "igac.descripcion": "Specialist in html, css, JavaScript, dedicated to the digital environment of the institute.",
+
+        "sancho.cargo": "UI-UX Designer",
+        "sancho.fecha": "2021 - Now",
+        "sancho.descripcion": "Development and conceptualization of user-centered web pages and applications, through the use of development tools and applied languages ​​such as JavaScript, JQuery, Html, Css, Sass, among others",
+
+        "kienyke.cargo": "PRODUCT MANAGER",
+        "kienyke.fecha": "2019 - 2021",
+        "kienyke.descripcion": "Manager of projects and digital products, in accordance with new technological trends, providing and contributing solutions for the successful execution of projects.",
+
+        "kienykeduu.cargo": "UI-UX Designer",
+        "kienykeduu.fecha": "2018 - 2019",
+        "kienykeduu.descripcion": "Development and graphic conceptualization for the web. Experience in UX, Drupal, front end, development in worpress, git, html, css, javascript. among other technological tools.",
+
+        "knockout.cargo": "GRAPHIC DESIGNER",
+        "knockout.fecha": "2017 - 2018",
+        "knockout.descripcion": "Preparation of audiovisual products for massive campaigns promoted in social networks and national media.",
+
+        "poli.cargo": "POSTPRODUCTION",
+        "poli.fecha": "2016 - 2017",
+        "poli.descripcion": "Experience in pre-production, production and post-production of audiovisual content for educational and institutional purposes, campaign creation."
+        
+    }    
+}
