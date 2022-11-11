@@ -246,7 +246,7 @@ hr {
     }
 
     .descripcion h1 {
-        font-size: 1.6rem;
+        font-size: 1.3rem;
         line-height: 2rem;
         padding-left: 15px;
         margin-bottom: 0;
@@ -266,9 +266,13 @@ hr {
         right: 0;
     }
 
+    .card .title {
+        font-size: 0.7rem;
+    }
+
     .skill {
         text-align: center;
-        width: 120px;
+        width: 108px;        
     }
 
     .skill .nombre {
@@ -291,6 +295,14 @@ hr {
         align-items: flex-end;
     }
 
+    .estudio .container .col-5:first-child {
+        padding-left: 0;
+    }
+
+    .estudio .container .col-5:last-child {
+        padding-right: 0;
+    }
+
     .estudio .container img, 
     .estudio .container .tipeB {
         width: 100% !important;
@@ -300,6 +312,10 @@ hr {
     .estudio .container .tipeB {
         margin-top: auto;
         padding-bottom: 20px;
+    }
+
+    .item__Container.estudio .descripcion {
+        font-size: 0.7rem;
     }
 
     section.pb-5 {
