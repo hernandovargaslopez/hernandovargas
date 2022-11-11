@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=hola mundo, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,12 +14,13 @@
     <link rel="stylesheet" href="styles.css">    
 </head>
     <body class="pb-5">
-        <nav class="navbar navbar-expand-lg py-4">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>          
-            <div class="collapse container navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+        <nav class="navbar navbar-expand-lg navbar-dark py4">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
                         <a class="nav-link" href="#inicio">Inicio <span class="sr-only">(current)</span></a>
                     </li>
@@ -34,34 +35,30 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#referencias">Referencias</a>
-                    </li>                    
-                    <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li> -->                    
+                    </li>
                 </ul>
-                <div class="nav-item bg">
-                    <a class="nav-link disabled" href="#">Contacto</a>
+                <div class="especial">
+                    <div class="nav-item bg">
+                        <a class="nav-link disabled" href="#">Contacto</a>
+                    </div>
                 </div>
             </div>
         </nav>
         <section id="inicio" class="pb-5">
             <div class="portada container mt-5">
-                <div class="d-flex align-items-center">
-                    <div class="col-md-4">
-                        <div class="mifoto">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-4">
+                        <div class="mifoto d-none d-md-block">
                             <img src="images/fotoperfil.jpeg" alt="">
                         </div>
                     </div>
                     <div class="descripcion col-md-8">
-                        <h1>HERNANDO ENRIQUE VARGAS LÓPEZ</h1>
+                        <div class="d-flex align-items-center container__name">
+                            <div class="mifoto d-block d-md-none">
+                                <img src="images/fotoperfil.jpeg" alt="">
+                            </div>
+                            <h1>HERNANDO ENRIQUE <br> VARGAS LÓPEZ</h1>
+                        </div>                        
                         <h2>Front End - UI/UX</h2>
                         <p>Hola, mi nombre es Hernando Erique Vargas López, Diseñador Web, Front End, UI/UX , graduado en las carreras profesionales de Diseño Gráfico y Medios Audiovisuales de la Universidad Politecnico Grancolombiano. Cuento con 4 años de experiencia en el desarrollo y liderazgo de productos digitales y en la implementación de campañas para la promoción de contenidos.</p>
                     </div>
@@ -213,7 +210,7 @@
             <div class="item__Container">
                 <h2 class="mb-5">REFERENCIAS</h2>
                 <div class="row justify-content-center">
-                    <div class="item px-4">
+                    <div class="item px-4 mb-4">
                         <div class="descripcion text-center">
                             <div class="d-flex justify-content-center headline">
                                 <div class="nombre">
@@ -261,6 +258,9 @@
                 </div>
             </div> 
         </section>
+        <div class="copy-right text-center">
+            COPYRIGHT ©2020 | Hernando Vargas
+        </div>
         
     </body>
     <footer>

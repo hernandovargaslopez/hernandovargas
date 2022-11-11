@@ -14,6 +14,24 @@ hr {
     background: #ffffff47;
 }
 
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #ff5b79;
+}
+
+.navbar-dark .navbar-nav .nav-link.active:focus {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #fff;
+    transition: 0.5s all ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+    transition: 0.5s all ease;
+}
+
 /*nav bar*/
 .navbar {
     position: sticky;
@@ -22,7 +40,14 @@ hr {
     background: linear-gradient(to right, #2E0916, #200A2B);
 }
 
-.navbar .nav-link {
+.navbar-collapse  {
+    max-width: 1170px !important;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
     color: #ff5b79;
 }
 
@@ -161,7 +186,6 @@ hr {
 }
 
 /*referencias*/
-
 .referencias .headline {
     margin-bottom: 5px;
 }
@@ -180,4 +204,75 @@ hr {
 
 .referencias .empresa {
     font-size: 0.8rem;
+}
+
+
+.copy-right {
+    font-size: 0.8rem;
+}
+
+/*referencias*/
+@media (min-width: 768px) {
+    .navbar {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 425px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 55px;
+        background: linear-gradient(to right, #2E0916, #200A2B);
+        width: 100%;
+        right: 0;
+        left: 0;
+        padding: 0 30px 0;
+    }
+
+    .navbar-collapse .especial {
+        padding-bottom: 30px;
+    }
+
+    .container__name {
+        margin-bottom: 40px;
+    }
+
+    .descripcion h1 {
+        font-size: 2rem;
+        line-height: 2rem;
+        padding-left: 15px;
+    }
+
+    .mifoto {
+        margin-bottom: 0;
+        width: 150px;
+        border-radius: 100px;
+    } 
+
+    .swiper-button-prev {
+        left: 0;
+    }
+
+    .swiper-button-next {
+        right: 0;
+    }
+
+    section.pb-5 {
+        padding-bottom: 30px !important;
+    }
+
+    section.pt-5 {
+        padding-top: 0 !important;
+    }
+
+    section.mt-5,
+    section.mt-2 {
+        margin-top: 30px !important;
+    }
+
+    .item__Container.estudio {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }
