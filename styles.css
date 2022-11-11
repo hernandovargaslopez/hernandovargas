@@ -36,8 +36,9 @@ hr {
 .navbar {
     position: sticky;
     top: 0;
-    z-index: 100;
-    background: linear-gradient(to right, #2E0916, #200A2B);
+    z-index: 100;    
+    background: linear-gradient(to right, #2e091680, #200a2b85);
+    backdrop-filter: blur(10px);
 }
 
 .navbar-collapse  {
@@ -101,9 +102,7 @@ hr {
 }
 
 .card:hover {
-    transform: scale(0.99);
-    transition: 1s all linear;
-    z-index: 1000;
+
 }
 
 .item__Container > .d-flex {
@@ -111,8 +110,14 @@ hr {
 }
 
 .card .title {
+    height: 65px;
     font-size: 0.9rem;
     font-weight: 400;
+    color: #ff5b79;
+}
+
+.card .title span {
+    color: #fff;
 }
 
 .card .descripcion {
@@ -209,6 +214,8 @@ hr {
 
 .copy-right {
     font-size: 0.8rem;
+    padding: 20px 0;
+    background: #190223;
 }
 
 /*referencias*/
@@ -239,14 +246,15 @@ hr {
     }
 
     .descripcion h1 {
-        font-size: 2rem;
+        font-size: 1.6rem;
         line-height: 2rem;
         padding-left: 15px;
+        margin-bottom: 0;
     }
 
     .mifoto {
         margin-bottom: 0;
-        width: 150px;
+        width: 110px;
         border-radius: 100px;
     } 
 
@@ -256,6 +264,42 @@ hr {
 
     .swiper-button-next {
         right: 0;
+    }
+
+    .skill {
+        text-align: center;
+        width: 120px;
+    }
+
+    .skill .nombre {
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
+    .item__Container h2 {
+        font-size: 1.3rem;
+        margin-bottom: 20px !important;
+    }
+
+    .estudio .container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .estudio .container .col-5 {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .estudio .container img, 
+    .estudio .container .tipeB {
+        width: 100% !important;
+        margin-bottom: 20px !important;
+    }
+
+    .estudio .container .tipeB {
+        margin-top: auto;
+        padding-bottom: 20px;
     }
 
     section.pb-5 {
@@ -274,5 +318,6 @@ hr {
     .item__Container.estudio {
         padding-top: 30px;
         padding-bottom: 30px;
+        background: #ffffff14;
     }
 }

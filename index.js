@@ -5,11 +5,10 @@ jQuery(window).scroll(function(){
       var top  = $(el).offset().top-180;
       var bottom = top +$(el).height();
       var scroll = $(window).scrollTop();
-      var id = $(el).attr('id');
+      var id = $(el).attr('id');      
       if( scroll > top && scroll < bottom){
           $('.nav-link').removeClass('active');
           $('a[href="#'+id+'"]').addClass('active');
-
       }
   })
 });
