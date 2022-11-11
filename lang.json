@@ -31,13 +31,17 @@
 
         "poli.cargo": "POSTPRODUCCIÓN",
         "poli.fecha": "2016 - 2017",
-        "poli.descripcion": "Experiencia en pre-producción producción y post-producción de contenidos audiovisuales con fines educativos e institucionales, creación de campañas."
+        "poli.descripcion": "Experiencia en pre-producción producción y post-producción de contenidos audiovisuales con fines educativos e institucionales, creación de campañas.",
+
+        "titulo.habilidades": "HABILIDADES",
+        "titulo.educacion": "EDUCACIÓN"
     },
+
     "en": {
         "inicio": "Home",
         "experiencia": "Experience",
         "habilidades": "Skills",
-        "educacion": "Education",
+        "educacion": "Studies",
         "referencias": "References",
         "contacto": "Contact",
         "introduccion": "Hello, my name is Hernando Erique Vargas López, Web Designer, Front End, UI/UX, graduated in the professional careers of Graphic Design and Audiovisual Media from the Universidad Politecnico Grancolombiano. I have 5 years of experience in the development and leadership of digital products and in the implementation of content promotion campaigns.",
@@ -65,7 +69,10 @@
 
         "poli.cargo": "POSTPRODUCTION",
         "poli.fecha": "2016 - 2017",
-        "poli.descripcion": "Experience in pre-production, production and post-production of audiovisual content for educational and institutional purposes, campaign creation."
+        "poli.descripcion": "Experience in pre-production, production and post-production of audiovisual content for educational and institutional purposes, campaign creation.",
+
+        "titulo.habilidades": "SKILLS",
+        "titulo.educacion": "STUDIES"
         
     }    
 }
