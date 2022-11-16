@@ -73,6 +73,7 @@ let homeSwiper = new Swiper(".swiper", {
     },
 });
 
+// Idioma
 $.getJSON('lang.json', function(json) {
   $('.translate').click(function () {
     let lang = $(this).attr('id');
@@ -82,3 +83,21 @@ $.getJSON('lang.json', function(json) {
   });
 });
 
+
+$('.translate').click(function() {
+  $('.translate').removeClass('active')
+  $(this).addClass('active')
+});
+
+
+// Responsive
+if (window.matchMedia("(max-width: 425px)").matches) {
+  $('.navbarButons').append($('.botones'))
+}
+window.addEventListener('resize', function() {
+  if (window.matchMedia("(max-width: 425px)").matches) {
+    $('.navbarButons').append($('.botones'))
+  } else {
+    $('.nav-item.bg').before($('.botones'))
+  }
+})

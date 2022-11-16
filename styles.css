@@ -222,6 +222,18 @@ hr {
     background: #190223;
 }
 
+/*translate*/
+.translate {
+    font-size: 14px;
+}
+
+.translate.active  {
+    border: 1px solid #fff;
+    border-radius: 50px;
+    font-size: 12px;
+    padding: 5px 100px;
+}
+
 /*referencias*/
 @media (min-width: 768px) {
     .navbar {
