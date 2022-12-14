@@ -34,7 +34,15 @@
         "poli.descripcion": "Experiencia en pre-producción producción y post-producción de contenidos audiovisuales con fines educativos e institucionales, creación de campañas.",
 
         "titulo.habilidades": "HABILIDADES",
-        "titulo.educacion": "EDUCACIÓN"
+        "titulo.educacion": "EDUCACIÓN",
+        "profesional.medios": "PROFESIONAL EN MEDIOS AUDIOVISUALES",
+        "profesional.grafico": "PROFESIONAL EN DISEÑO GRÁFICO",
+        "profesional.medios.end": "FINALIZADA EN 2014",
+        "profesional.grafico.end": "FINALIZADA EN 2016",
+
+        "nombre.universidad": "UNIVERSIDAD POLITÉCNICO GRANCOLOMBIANO",
+
+        "titulo.referencias": "REFERENCIAS"
     },
 
     "en": {
@@ -72,7 +80,15 @@
         "poli.descripcion": "Experience in pre-production, production and post-production of audiovisual content for educational and institutional purposes, campaign creation.",
 
         "titulo.habilidades": "SKILLS",
-        "titulo.educacion": "STUDIES"
+        "titulo.educacion": "STUDIES",
+        "profesional.medios": "PROFESSIONAL IN AUDIOVISUAL MEDIA",
+        "profesional.grafico": "PROFESSIONAL IN GRAPHIC DESIGN",
+        "profesional.medios.end": "COMPLETED IN 2014",
+        "profesional.grafico.end": "COMPLETED IN 2016",
+
+        "nombre.universidad": "UNIVERSITY POLITÉCNICO GRANCOLOMBIANO",
+
+        "titulo.referencias": "REFERENCES"
         
     }    
 }

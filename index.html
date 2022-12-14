@@ -4,12 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="initial-scale=1.0">
-    <title>Document</title>
+
+    <!-- Seo -->
+    <title>Hernando Enrique Vargas Lopez</title>
+    <meta name="title" property="og:title" content="Hoja de vida Hernando Enrique Vargas Lopez">
+    <meta name="description"content="Hola, mi nombre es Hernando Erique Vargas López, Diseñador Web, Front End, UI/UX , graduado en las carreras profesionales de Diseño Gráfico y Medios Audiovisuales de la Universidad Politecnico Grancolombiano."/>
+    <meta property="og:type" content="website">
+    <meta name="keywords" content="Hoja de vida, Diseño Web, Diseño Front End, Diseño UI-UX Bogotá, Front End Colombia, Front End Bogotá, Html, Css" />
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <!-- bootstrap tour-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tour/0.12.0/css/bootstrap-tour-standalone.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tour/0.12.0/js/bootstrap-tour-standalone.min.js">
+    </script>
 
     <link rel="stylesheet" href="styles.css">    
 </head>    
@@ -18,7 +33,6 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="navbarButons"></div>
           
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -41,11 +55,13 @@
                 <div class="especial">
                     <div class="d-flex align-items-center justify-content-center">
                         <div class="nav-item botones px-2">
-                            <buton class="translate px-2 active" id="es">
+                            <buton class="translate px-2" id="es">
                                 Español
                             </buton>
                             <buton class="translate px-2" id="en">
-                                Ingles
+                                <span id="ingles">
+                                    Ingles
+                                </span>                                
                             </buton>
                         </div>
                         <div class="nav-item bg">
@@ -240,10 +256,10 @@
                     <div class="col-5 col-md-4">
                         <div class="item text-center">
                             <img src="images/love.png" alt="">
-                            <div class="descripcion">
+                            <div class="descripcion lang" key="profesional.medios">
                                 PROFESIONAL EN MEDIOS AUDIOVISUALES
                             </div>
-                            <div class="title">
+                            <div class="title lang" key="profesional.medios.end">
                                 FINALIZADA EN 2014
                             </div>
                         </div>
@@ -251,23 +267,23 @@
                     <div class="col-5 col-md-4">
                         <div class="item text-center">
                             <img class="tipeB" src="images/wacom.png" alt="">
-                            <div class="descripcion">
+                            <div class="descripcion lang" key="profesional.grafico">
                                 PROFESIONAL EN DISEÑO GRÁFICO                                
                             </div>
-                            <div class="title">
+                            <div class="title lang" key="profesional.grafico.end">
                                 FINALIZADA EN 2016
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="text-center mt-3 universidad">
+                <div class="text-center mt-3 universidad lang" key="nombre.universidad">
                     UNIVERSIDAD POLITÉCNICO GRANCOLOMBIANO
                 </div>               
             </div>           
         </section>
         <section id="referencias" class="referencias container mt-5 pb-5">
             <div class="item__Container">
-                <h2 class="mb-5">REFERENCIAS</h2>
+                <h2 class="mb-5 lang" key="titulo.referencias">REFERENCIAS</h2>
                 <div class="row justify-content-center">
                     <div class="item px-4 mb-4">
                         <div class="descripcion text-center">

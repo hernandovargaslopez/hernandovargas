@@ -59,7 +59,8 @@ hr {
     width: 111px;
     height: 54px;
     display: flex;
-    align-items: center;    
+    align-items: center;
+    justify-content: center;    
 }
 
 .nav-item.bg a {
@@ -356,4 +357,48 @@ hr {
         padding-bottom: 30px;
         background: #ffffff14;
     }
+}
+
+/*poppover tour*/
+.popover {
+    background: #000000c2;
+}
+
+.popover .modal-header {
+    padding: 0 15px;
+    justify-content: flex-end !important;
+    display: flex;
+}
+
+.popover .arrow::after {
+    border-right-color: #000000c2 !important;
+}
+
+.popover.main {
+    background: transparent;
+}
+
+.popover.main {
+    max-width: 350px;
+}
+
+.popover .contentP {
+    display: flex;
+}
+
+.popover .contentP h2 {
+    font-size: 20px;
+}
+
+.popover .contentP .image {
+    max-width: 100px;
+    width: 100px;
+    height: auto;
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.popover .btn {
+    color: #fff;
 }
