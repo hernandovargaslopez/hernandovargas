@@ -31,12 +31,16 @@ hr {
 }
 
 /*nav bar*/
+.navbar .logo {
+    width: 100px;
+    height: auto;
+}
 .navbar {
     box-shadow: 0 0 10px #0000006e;
     position: sticky;
     top: 0;
     z-index: 100;
-    background: #fff;
+    background: #F8F8F8;
     box-shadow: 10;
 }
 
@@ -58,6 +62,10 @@ hr {
 
 .nav-item.bg a {
     color: #811d66;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    filter: invert();
 }
 
 /* cover */
@@ -109,6 +117,23 @@ section#inicio {
     overflow: hidden;
     border: 0;
     box-shadow: 3px 2px 10px #00000021;
+    position: relative;
+}
+
+.card .content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}   
+
+.card .content .text {
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    position: relative;
+    padding: 30px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0), rgba(0, 0, 0, 0));
+    border-radius: 0 0 10px 10px;
 }
 
 /*cards*/
@@ -131,7 +156,7 @@ section#inicio {
 }
 
 .card .title {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 400;
     color: #fff;
 }
@@ -143,7 +168,7 @@ section#inicio {
 
 .card .descripcion {
     color: #fff;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 200;
 }
 
@@ -165,12 +190,17 @@ section#inicio {
 
 /*skils*/
 #habilidades {
-    background: url('images/fondos/bgo@72x.png');
-    background-position: bottom;
-    background-repeat: no-repeat;
+    background: #28282a;
+}
+
+#habilidades .item__Container h2 {
+    color: #fff;
 }
 
 .skill  {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
     text-align: center;
     width: 160px;    
 }
@@ -185,7 +215,7 @@ section#inicio {
 }
 
 .skill .nombre {
-    font-weight: 800;
+    font-weight: 500;
     font-size: 1.3rem;
 }
 
@@ -204,13 +234,13 @@ section#inicio {
 }
 
 .item__Container.estudio .descripcion {
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-bottom: 0px;
     opacity: 0.8;
 }
 
 .item__Container.estudio .title {
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: #811d66;
 }
 
@@ -245,15 +275,16 @@ section#inicio {
 }
 
 .referencias .empresa {
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: #fff;
 }
 
 
 .copy-right {
+    color: #fff;
     font-size: 0.8rem;
-    padding: 20px 0;
-    background: #fff;
+    padding: 10px 0;
+    background: #811d66;
 }
 
 /*translate*/
@@ -269,15 +300,17 @@ section#inicio {
 }
 
 /*referencias*/
-@media (min-width: 768px) {
-
+@media (max-width: 768px) {
+    #portafolio .item__Container h2 {
+        font-size: 1.3rem;
+    }
 }
 
 @media (max-width: 425px) {
     .navbar-collapse {
         position: fixed;
         top: 55px;
-        background: linear-gradient(to right, #2E0916, #200A2B);
+        background: #fff;
         width: 100%;
         right: 0;
         left: 0;
@@ -363,23 +396,6 @@ section#inicio {
 
     .item__Container.estudio .descripcion {
         font-size: 0.7rem;
-    }
-
-    .portada.mt-5 {
-        margin-top: 30px !important;
-    }
-
-    section.pb-5 {
-        padding-bottom: 30px !important;
-    }
-
-    section.pt-5 {
-        padding-top: 0 !important;
-    }
-
-    section.mt-5,
-    section.mt-2 {
-        margin-top: 30px !important;
     }
 
     .item__Container.estudio {
