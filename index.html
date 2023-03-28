@@ -18,13 +18,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
-    <!-- bootstrap tour-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tour/0.12.0/css/bootstrap-tour-standalone.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tour/0.12.0/js/bootstrap-tour-standalone.min.js">
-    </script>
 
     <link rel="stylesheet" href="styles.css">    
 </head>    
@@ -71,12 +64,12 @@
                 </div>
             </div>
         </nav>        
-        <section id="inicio" class="pb-5">
-            <div class="portada container mt-5">
+        <section id="inicio">
+            <div class="portada container pb-5 pt-5">
                 <div class="row align-items-center">
                     <div class="col-12 col-md-4">
                         <div class="mifoto">
-                            <img src="images/fotoperfil.jpeg" alt="">
+                            <img src="images/fotoperfil.jpg" alt="">
                         </div>
                     </div>
                     <div class="descripcion col-md-8">
@@ -89,9 +82,50 @@
                 </div>                
             </div>            
         </section>
-        <section id="experiencia" class="container mt-5 pb-5">
-            <div class="item__Container">
-                <h2 class="mb-5 lang" key="titulo.experiencia">EXPERIENCIA</h2>
+        <section id="portafolio" class="pb-5 pt-5">
+            <div class="container item__Container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="lang" key="titulo.experiencia">PORTAFOLIO 2019 - 2023</h2>
+                        <div class="card mb-4">
+                            <a href="https://hernandovargasl.github.io/Expedicionesigac/">
+                                <img src="images/expediciones.png" alt="">
+                            </a>
+                        </div>
+                        <div class="card mb-4">
+                            <a href="https://www.kienyke.com/">
+                                <img src="images/kienyke.png" alt="">
+                            </a>
+                        </div>  
+                        <div class="card mb-4">
+                            <a href="https://www.transgreencargo.com/">
+                                <img src="images/transgreen.png" alt="">
+                            </a>
+                        </div>                      
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card mb-4">
+                            <a href="https://diccionario.igac.gov.co/">
+                                <img src="images/diccionario.png" alt="">
+                            </a>
+                        </div>
+                        <div class="card mb-5">
+                            <a href="https://hernandovargasl.github.io/Expedicionesigac/">
+                                <img src="images/origen.png" alt="">
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a href="https://hernandovargasl.github.io/Expedicionesigac/">
+                                <img src="images/premio.png" alt="">
+                            </a>
+                        </div>
+                    </div>                    
+                </div>
+            </div>                      
+        </section>
+        <section id="experiencia" class="pb-5 pt-5">
+            <div class="container item__Container">
+                <h2 class="mb-3 lang" key="titulo.experiencia">EXPERIENCIA</h2>
                 <div class="d-flex">
                     <div class="swiper">
                         <div class="swiper-wrapper">
@@ -206,51 +240,51 @@
                 </div>
             </div>                      
         </section>
-        <section id="habilidades" class="container mt-2">
-            <div class="item__Container">
+        <section id="habilidades" class="pt-5 pb-5">
+            <div class="container item__Container">
                 <h2 class="mb-5 lang" key="titulo.habilidades" >HABILIDADES</h2>
-            </div>
-            <div class="skills row justify-content-center">
-                <div class="skill mx-2">
-                    <img src="images/htmllogo.png" alt="">
-                    <div class="nombre">
-                        HTML 5
+                <div class="skills row justify-content-center">
+                    <div class="skill mx-2">
+                        <img src="images/htmllogo.png" alt="">
+                        <div class="nombre">
+                            HTML 5
+                        </div>
                     </div>
+                    <div class="skill mx-2">
+                        <img class="tipeB" src="images/csslogo.png" alt="">
+                        <div class="nombre">
+                            CSS
+                        </div>
+                    </div>
+                    <div class="skill mx-2">
+                        <img src="images/javascript.png" alt="">
+                        <div class="nombre">
+                            JavaScript
+                        </div>
+                    </div>
+                    <div class="skill mx-2">
+                        <img src="images/blue_WordPress.png" alt="">
+                        <div class="nombre">
+                            WordPress
+                        </div>
+                    </div>
+                    <div class="skill mx-2">
+                        <img src="images/drupal.png" alt="">
+                        <div class="nombre">
+                            Drupal
+                        </div>
+                    </div>
+                    <div class="skill mx-2">
+                        <img src="images/adobe.png" alt="">
+                        <div class="nombre">
+                            Suit Adobe
+                        </div>
+                    </div>                
                 </div>
-                <div class="skill mx-2">
-                    <img class="tipeB" src="images/csslogo.png" alt="">
-                    <div class="nombre">
-                        CSS
-                    </div>
-                </div>
-                <div class="skill mx-2">
-                    <img src="images/javascript.png" alt="">
-                    <div class="nombre">
-                        JavaScript
-                    </div>
-                </div>
-                <div class="skill mx-2">
-                    <img src="images/blue_WordPress.png" alt="">
-                    <div class="nombre">
-                        WordPress
-                    </div>
-                </div>
-                <div class="skill mx-2">
-                    <img src="images/drupal.png" alt="">
-                    <div class="nombre">
-                        Drupal
-                    </div>
-                </div>
-                <div class="skill mx-2">
-                    <img src="images/adobe.png" alt="">
-                    <div class="nombre">
-                        Suit Adobe
-                    </div>
-                </div>                
             </div>
         </section>
-        <section id="educacion" class="container-fluid px-0 mt-5 pt-5 pb-5">
-            <div class="item__Container estudio">
+        <section id="educacion">
+            <div class="container item__Container estudio">
                 <h2 class="mb-5 lang" key="titulo.educacion">EDUCACIÓN</h2>
                 <div class="row container m-auto justify-content-center">
                     <div class="col-5 col-md-4">
@@ -281,8 +315,8 @@
                 </div>               
             </div>           
         </section>
-        <section id="referencias" class="referencias container mt-5 pb-5">
-            <div class="item__Container">
+        <section id="referencias" class="referencias pt-5 pb-5">
+            <div class="container item__Container">
                 <h2 class="mb-5 lang" key="titulo.referencias">REFERENCIAS</h2>
                 <div class="row justify-content-center">
                     <div class="item px-4 mb-4">
